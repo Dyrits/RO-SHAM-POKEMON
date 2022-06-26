@@ -36,6 +36,7 @@ Finally, this is your first JavaScript program built from scratch, so don't forg
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
 1. Start a new Git repo for your project.
@@ -87,7 +88,7 @@ The project is a Pokemon's Ro Sham Bo (Rock Paper Scissors) game. The player and
 Launch the project in your browser through the .html file.
 
 ## Demonstration
-[Try it!] (*Add link to a demo version.*)
+[Try it!] (https://dyrits.github.io/RO-SHAM-POKEMON/)
 
 ## Status
 The project has been completed.
