@@ -88,7 +88,7 @@ The project is a Pokemon's Ro Sham Bo (Rock Paper Scissors) game. The player and
 Launch the project in your browser through the .html file.
 
 ## Demonstration
-[Try it!] (https://dyrits.github.io/RO-SHAM-POKEMON/)
+[Try it!](https://dyrits.github.io/RO-SHAM-POKEMON/)
 
 ## Status
 The project has been completed.
@@ -107,9 +107,8 @@ The images have been updated.
 The name of the project has been changed to Ro Sham Pokemon.
 The README has been updated.
 </details>
-<br>
 <details markdown="block">
-<summary><strong>Version 1.0 (05/2020)</strong></summary>
+<summary><strong>Version 1.00 (05/2020)</strong></summary>
 The first version of the project has been released.
 </details>
 
