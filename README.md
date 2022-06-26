@@ -1,11 +1,11 @@
 # Ro Sham Pokemon
 
 ## Table of contents
+- [General information](#general-information)
 - [Related content](#related-content)
   - [Introduction](#introduction)
   - [Quick Exercises Before Starting](#quick-exercises-before-starting)
   - [Assignment](#assignment)
-- [General information](#general-information)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies-and-tools)
 - [Installation](#installation)
@@ -18,9 +18,12 @@
 - [Contributing](#contributing)
 - [Licence](#licence)
 - [Contact](#contact)
+- 
+## General information
+The project is a Pokemon's Ro Sham Bo (Rock Paper Scissors) game. The player and computer will each choose a Pokemon and then the winner will be determined based on the type and the level of the Pokemon.
 
 ## Related content
-[[The Odin Project](https://www.theodinproject.com) - [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations)]] [Project: Rock Paper Scissors ](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
+[[The Odin Project](https://www.theodinproject.com) - [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations)] [Project: Rock Paper Scissors ](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
 
 ### Introduction
 
@@ -72,9 +75,6 @@ Don't forget to commit early & often! You can [reference the Commit Message less
   1. Feel free to create more "helper" functions if you think it would be useful.
 
 </div>
-
-## General information
-The project is a Pokemon's Ro Sham Bo (Rock Paper Scissors) game. The player and computer will each choose a Pokemon and then the winner will be determined based on the type and the level of the Pokemon.
 
 ## Screenshots
 ![Screenshot](screenshot.png)
