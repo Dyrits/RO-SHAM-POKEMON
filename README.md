@@ -1,6 +1,6 @@
 # Ro Sham Pokemon
 
-Pokemon's Ro Sham Bo is a game similar to Rock Paper Scissors. The player and computer will each choose a Pokemon and then the winner will be determined based on the type and the level of the Pokemon.
+Ro Sham Pokemon is a game similar to Rock Paper Scissors. The player and computer will each choose a Pokemon, among three, and then the winner will be determined based on the type and the level of the Pokemon.
 
 ## Table of contents
 - [Related content](#related-content)
@@ -92,7 +92,7 @@ Launch the project in your browser through the .html file.
 The project has been completed.
 
 ### Features
-The game is played against the computer. The player and computer will each choose a Pokemon and then the winner will be determined based on the type and the level of the Pokemon. The game ends after the player or computer wins 5 rounds. A Pokemon is able to evolve into a stronger Pokemon after winning a few rounds.
+The game is played against the computer. The player and computer will each choose a Pokemon, among the three first generation starters, and then the winner will be determined based on the type and the level of the Pokemon. The game ends after the player or computer wins 5 rounds. A Pokemon is able to evolve into a stronger Pokemon after winning a few rounds.
 
 ### Issues
 There is no current issue with this project.
