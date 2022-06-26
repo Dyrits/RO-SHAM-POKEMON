@@ -1,7 +1,8 @@
 # Ro Sham Pokemon
 
+Pokemon's Ro Sham Bo is a game similar to Rock Paper Scissors. The player and computer will each choose a Pokemon and then the winner will be determined based on the type and the level of the Pokemon.
+
 ## Table of contents
-- [General information](#general-information)
 - [Related content](#related-content)
   - [Introduction](#introduction)
   - [Quick Exercises Before Starting](#quick-exercises-before-starting)
@@ -18,9 +19,6 @@
 - [Contributing](#contributing)
 - [Licence](#licence)
 - [Contact](#contact)
-- 
-## General information
-The project is a Pokemon's Ro Sham Bo (Rock Paper Scissors) game. The player and computer will each choose a Pokemon and then the winner will be determined based on the type and the level of the Pokemon.
 
 ## Related content
 [[The Odin Project](https://www.theodinproject.com) - [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations)] [Project: Rock Paper Scissors ](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
