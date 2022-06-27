@@ -7,7 +7,6 @@ const scoreCOM = document.querySelector("#stars-com");
 
 const FIRE = {
   name: "Charmander",
-  image: "https://archives.bulbagarden.net/media/upload/thumb/7/73/004Charmander.png/600px-004Charmander.png",
   experience: 0,
   evolveStage: 1,
   type: "Fire",
@@ -15,12 +14,10 @@ const FIRE = {
   evolve () {
     if (this.evolveStage === 1) {
       this.name = "Charmeleon";
-      this.image = "https://archives.bulbagarden.net/media/upload/thumb/4/4a/005Charmeleon.png/600px-005Charmeleon.png";
       this.experience -= 200;
       this.evolveStage ++;
     } else if (this.evolveStage === 2) {
       this.name = "Charizard";
-      this.image = "https://archives.bulbagarden.net/media/upload/thumb/7/7e/006Charizard.png/600px-006Charizard.png";
       this.evolveStage ++;
     }
   }
@@ -28,7 +25,6 @@ const FIRE = {
 
 const WATER = {
   name: "Squirtle",
-  image: "https://archives.bulbagarden.net/media/upload/thumb/3/39/007Squirtle.png/600px-007Squirtle.png",
   experience: 0,
   evolveStage: 1,
   type: "Water",
@@ -36,12 +32,10 @@ const WATER = {
   evolve () {
     if (this.evolveStage === 1) {
       this.name = "Wartortle";
-      this.image = "https://archives.bulbagarden.net/media/upload/thumb/0/0c/008Wartortle.png/600px-008Wartortle.png";
       this.experience -= 200;
       this.evolveStage ++;
     } else if (this.evolveStage === 2) {
       this.name = "Blastoise";
-      this.image = "https://archives.bulbagarden.net/media/upload/thumb/0/02/009Blastoise.png/600px-009Blastoise.png";
       this.evolveStage ++;
       this.win = FIRE;
     }
@@ -50,7 +44,6 @@ const WATER = {
 
 const GRASS = {
   name: "Bulbasaur",
-  image: "https://archives.bulbagarden.net/media/upload/thumb/2/21/001Bulbasaur.png/600px-001Bulbasaur.png",
   experience: 0,
   evolveStage: 1,
   type: "Grass",
@@ -58,12 +51,10 @@ const GRASS = {
   evolve () {
     if (this.evolveStage === 1) {
       this.name = "Ivysaur";
-      this.image = "https://archives.bulbagarden.net/media/upload/thumb/7/73/002Ivysaur.png/600px-002Ivysaur.png";
       this.experience -= 200;
       this.evolveStage ++;
     } else if (this.evolveStage === 2) {
       this.name = "Venusaur";
-      this.image = "https://archives.bulbagarden.net/media/upload/thumb/a/ae/003Venusaur.png/600px-003Venusaur.png";
       this.evolveStage ++;
     }
   }
@@ -89,7 +80,7 @@ function updatePokemonSelection() {
   for(pokemon of pokemonArray) {
     let pokemonSelector = document.createElement("img");
     pokemonSelector.classList.add("pokemon-selector");
-    pokemonSelector.src = pokemon.image;
+    pokemonSelector.src = `./assets/${pokemon.name}.png`;
     pokemonSelector.name = pokemon.name;
     pokemonSelection.appendChild(pokemonSelector);
   addSelectors()
@@ -128,14 +119,14 @@ confirmButton.addEventListener("click", () => {
   randomSelectionCOM.removeChild(randomSelectionCOM.firstChild);
   let pokemonCOM = document.createElement("img");
   pokemonCOM.classList.add("pokemon-selector");
-  pokemonCOM.src = randomPokemonCOM.image;
+  pokemonCOM.src = `./assets/${randomPokemonCOM.name}.png`;
   pokemonCOM.name = randomPokemonCOM.name;
   randomSelectionCOM.appendChild(pokemonCOM);
   battle(currentPokemon, randomPokemonCOM)
   checkEvolve(pokemonArray)
   checkEvolve(pokemonArrayCOM)
   randomSelectionCOM.removeChild(randomSelectionCOM.firstChild);
-  pokemonCOM.src = randomPokemonCOM.image;
+  pokemonCOM.src = `./assets/${randomPokemonCOM.name}.png`;
   pokemonCOM.name = randomPokemonCOM.name;
   randomSelectionCOM.appendChild(pokemonCOM);
   updateStars(score, battleWon)

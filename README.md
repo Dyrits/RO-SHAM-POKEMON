@@ -100,6 +100,10 @@ Feel free to open an issue if you have any questions or comments.
 
 ### Changelog
 <details markdown="block">
+<summary><strong>Version 1.02 (06/2022)</strong></summary>
+The images have been updated using local files.
+</details>
+<details markdown="block">
 <summary><strong>Version 1.01 (06/2022)</strong></summary>
 The images have been updated.
 The name of the project has been changed to Ro Sham Pokemon.
