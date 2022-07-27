@@ -105,8 +105,8 @@ The images have been updated using local files.
 </details>
 <details markdown="block">
 <summary><strong>Version 1.01 (06/2022)</strong></summary>
-The images have been updated.
-The name of the project has been changed to Ro Sham Pokemon.
+The images have been updated.<br>
+The name of the project has been changed to Ro Sham Pokemon.<br>
 The README has been updated.
 </details>
 <details markdown="block">
